@@ -1,0 +1,15 @@
+<header class="site-header">
+  <core-toolbar class="tall" style="background: #0f9d58;">
+    <paper-icon-button icon="menu"></paper-icon-button>
+    <span flex><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></span>
+    <nav>
+        {% for page in site.pages %}
+          {% if page.title %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+    </nav>
+    <paper-icon-button icon="refresh"></paper-icon-button>
+    <paper-icon-button icon="more-vert"></paper-icon-button>
+  </core-toolbar>
+</header>

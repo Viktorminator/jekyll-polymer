@@ -1,0 +1,25 @@
+{
+  "name": "jekyll-polymer",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Viktorminator/jekyll-polymer",
+  "authors": [
+    "Viktorminator <viktorminator@gmail.com>"
+  ],
+  "description": "jekyll polymer theme",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.4.2"
+  },
+  "resolutions": {
+    "platform": "^0.4.0",
+    "core-component-page": "^0.4.0",
+    "polymer": "~0.4.2"
+  }
+}
